@@ -1,2 +1,2 @@
 # Glossario-tecnico
-Glossário desenvol
+Projeto Glossário técnico desenvolvido em HTML, CSS e JS
