@@ -1,0 +1,2 @@
+# Glossario-tecnico
+Glossário desenvol
