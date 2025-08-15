@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS.css">
+    <script src="acordiun.js" defer></script>
+    <title>Glossário - Tags HTML</title>
+</head>
+<body>
+    <header>
+        <div class="topo">
+            <div class="logo">
+                <img src="logo.png" alt="Logo">
+            </div>
+            <div class="menu">
+                <ul>
+                    <li><a href="HTML.html">HTML</a></li>
+                    <li><a href="index.html">Início</a></li>
+                    <li><a href="JS.html">JavaScript</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <main>
+      <div class="accordion-container">
+          <div class="accordion-item">
+
+            <button class="accordion-header"> Tags CSS</button>
+            <div class="accordion-content">
+
+              <p>
+                <div class="item">
+                  <strong>width & height</strong> – Defini largura e altura.<br />
+                     <code> div {
+                          width: 300px;
+                          height: 150px;
+                          } 
+                  </code>
+                </div>
+
+                <div class="item">
+                  <strong>color</strong> – Define cor de texto.<br />
+               <code> p {
+                          color: red;
+                          } 
+                  </code>
+                </div>
+
+                <div class="item">
+                  <strong>margin</strong> – Adiciona espaço externo (fora da borda do elemento).<br />
+                  <code>section {
+                          margin: 10px;
+                          } </code>
+                </div>
+
+                 <div class="item">
+                  <strong>fonte-size</strong> – Define o tamanho do texto.<br />
+                  <code>h1 {
+                          font-size: 24px;
+                          }</code>
+                </div>
+
+                <div class="item">
+                  <strong> padding</strong> – Adiciona espaço interno (dentro da borda do elemento).<br />
+                  <code>div {
+                          padding: 20px;
+                          }</code>
+                </div>
+
+                 <div class="item">
+                  <strong>background-color</strong> – Define a cor de fundo do elemento.<br />
+                  <code>body {
+                            background-color: #f0f0f0;
+                            }</code>
+                </div>
+
+                   <div class="item">
+                  <strong> border </strong> – Coloca uma borda no elemento.<br />
+                  <code> img {
+                          border: 2px solid black;
+                          }
+                  </code>
+                </div>
+
+                 <div class="item">
+                  <strong> display </strong> – Controla como o elemento se comporta (em linha, em bloco, flex, etc).<br />
+                  <code> nav {
+                          display: flex;
+                          }
+                  </code>
+                </div>
+
+                     <div class="item">
+                  <strong> text-align </strong> – Alinha o texto (esquerda, direita, centro, etc).<br />
+                  <code> p {
+                          text-align: center;
+                          }
+                  </code>
+                </div>
+
+                   <div class="item">
+                  <strong> font-weight </strong> – Define o peso da fonte (como negrito).<br />
+                  <code> strong {
+                          font-weight: bold;
+                          }
+                  </code>
+                     Se o &lt;strong&gt; já deixa o texto em negrito, pra que usar font-weight: bold; no CSS?
+                  <code>Porque o &lt;strong&gt; tem um estilo padrão de negrito, mas esse estilo pode ser modificado com CSS. O font-weight: bold; dá mais controle sobre a aparência do texto, independente da tag HTML usada.</code>
+                </div>
+              </p>
+
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+        Site desenvolvido por Ana clara melo, com fins educativos.
+        Todos os direitos reservados &copy;.
+    </footer>
+</body>
+</html>
